@@ -1,8 +1,5 @@
 function ucFirst(str) {
-  let str = 'вася'
-  if (!str) return str;
-
-  console.log(str[0])
+  if (!str) {return str;}
 
   return str[0].toUpperCase() + str.slice(1);
 }
