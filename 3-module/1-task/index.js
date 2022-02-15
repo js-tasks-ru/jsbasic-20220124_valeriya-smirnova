@@ -1,9 +1,9 @@
 function namify(users) {
   let usersNames = [];
 
- for (let user of users) {
-  usersNames.push(user.name);
- }
+  for (let user of users) {
+    usersNames.push(user.name);
+  }
 
- return usersNames;
+  return usersNames;
 }
